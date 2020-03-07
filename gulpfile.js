@@ -93,7 +93,11 @@ const serverHandler = () => {
                  {
                    source: '/gx2',
                    target: 'http://127.0.0.1/xxx.php'
-                 }
+                 },
+                 {
+                  source: '/erjicd',
+                  target: './lib/erjicd.json'
+                }
                ]
              })) // 开启服务器
 }
